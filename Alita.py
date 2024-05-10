@@ -91,6 +91,8 @@ def wish():
 
 def play_youtube(query):
     pywhatkit.playonyt(query)
+    time.sleep(5) 
+    pyautogui.press('f')
 
 def search_google(query):
     speak(f"Searching Google for {query}")
@@ -599,7 +601,6 @@ if __name__ == "__main__":
             "alita click up": click_up,
             "alita click down": click_down,
             "alita click enter": click_enter
-
         }
 
 
