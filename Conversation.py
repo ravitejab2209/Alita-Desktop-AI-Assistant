@@ -38,3 +38,4 @@ riddles = [
             {"question": "What has a neck but no head?", "answer": "A bottle"},
             # Add more riddles as needed
         ]
+
